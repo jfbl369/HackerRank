@@ -1,0 +1,6 @@
+import numpy
+numpy.set_printoptions(legacy="1.13")
+shape = list(map(int, input().split()))
+nump_eye = numpy.eye(shape[0], shape[1])
+print(nump_eye)
+
