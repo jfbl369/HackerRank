@@ -1,0 +1,21 @@
+import numpy
+N, M= map(int, input().split())
+
+matrice1 = []
+matrice2 = []
+
+for i in range(N):
+    matrice1.append(list(map(int, input().split())))
+
+for i in range(N):
+    matrice2.append(list(map(int, input().split())))
+    
+A = numpy.array(matrice1)
+B = numpy.array(matrice2)
+
+print(A+B)
+print(A-B)
+print(A*B)
+print(A//B)
+print(A%B)
+print(A**B)
