@@ -1,0 +1,7 @@
+import numpy
+
+input = input().split()
+array = [int(x) for x in input]
+reshape = numpy.array(array).reshape(3,3)
+
+print(reshape)
