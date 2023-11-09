@@ -1,0 +1,21 @@
+#import sys
+#for line in sys.stdin:
+#    print(line.strip())
+import numpy as np
+
+n, m = input().split()
+n = int(n)
+m = int(m)
+#print(n, m)
+
+matrice = []
+for i in range(n):
+    row = list(map(int, input().split()))
+    matrice.append(row)
+#print(matrice)
+
+transpose = np.transpose(matrice)
+print(transpose)
+flatten = np.array(matrice).flatten()
+print(flatten)
+
