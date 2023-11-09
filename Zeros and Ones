@@ -1,0 +1,10 @@
+import numpy
+
+shape = list(map(int, input().split()))
+
+array_zeros = numpy.zeros(shape, dtype=int)
+
+array_ones = numpy.ones(shape, dtype=int)
+
+print(array_zeros)
+print(array_ones)
